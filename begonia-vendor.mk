@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.1-service-mediatek \
     vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
     vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service.beanpod \
-    vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.lights-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.lights-service.mediatek \
     vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.omx@1.0-service \
     vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     vendor/xiaomi/begonia/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service-mediatek \
@@ -400,7 +399,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/init_connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_connectivity.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/init/lights-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-mtk-default.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/microtrust_begonia.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust_begonia.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
@@ -872,7 +870,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gf_fingerprint.default.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/hw/lights.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6785.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/memtrack.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt6785.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/nfc_nci.nqx.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.nqx.default.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/power.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt6785.so \
@@ -1438,7 +1435,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/hw/hwcomposer.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6785.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libSoftGatekeeper.so \
-    vendor/xiaomi/begonia/proprietary/vendor/lib64/hw/lights.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.mt6785.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/hw/memtrack.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.mt6785.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/hw/nfc_nci.nqx.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.nqx.default.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/hw/power.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.mt6785.so \
@@ -2121,7 +2117,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu \
     android.hardware.wifi.hostapd \
     fp_manifest \
-    lights-mtk-default \
     manifest \
     manifest_android.hardware.drm@1.3-service.widevine \
     mfp-daemon \
